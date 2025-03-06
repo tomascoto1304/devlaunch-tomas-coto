@@ -9,3 +9,8 @@ La idea de Bitcoin surgió en 2008, cuando Satoshi Nakamoto publicó un document
 peer-to-peer" en un foro de Internet. En enero de 2009, Nakamoto creó el primer bloque de la cadena de bloques, conocido como
 el "bloque de nacimiento" de Bitcoin. Desde entonces, la red de Bitcoin ha crecido rápidamente, con millones de usuarios y 
 una capitalización de mercado que supera los $1 billones.
+
+En resumen, Bitcoin es una moneda digital descentralizada que utiliza una tecnología llamada blockchain para almacenar todos los 
+registros de transacciones. Fue creada en 2009 por Satoshi Nakamoto y ha crecido rápidamente desde entonces. 
+Bitcoin es una forma de pago electrónica segura y descentralizada que no está controlada por ningún gobierno o institución financiera. 
+Su capitalización de mercado supera los $1 billones y es una de las monedas digitales más populares del mundo.
