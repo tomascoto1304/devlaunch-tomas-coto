@@ -4,3 +4,8 @@ Bitcoin es una moneda digital creada en 2009 por un desarrollador anónimo conoc
 Es una forma de pago electrónica descentralizada, es decir, no está controlada por ningún gobierno o institución financiera.
 Bitcoin utiliza una tecnología llamada blockchain, que es una cadena de bloques que almacena todos los registros de transacciones 
 de Bitcoin.
+
+La idea de Bitcoin surgió en 2008, cuando Satoshi Nakamoto publicó un documento llamado "Bitcoin: un sistema de moneda electrónica 
+peer-to-peer" en un foro de Internet. En enero de 2009, Nakamoto creó el primer bloque de la cadena de bloques, conocido como
+el "bloque de nacimiento" de Bitcoin. Desde entonces, la red de Bitcoin ha crecido rápidamente, con millones de usuarios y 
+una capitalización de mercado que supera los $1 billones.
