@@ -1,0 +1,21 @@
+Proporcionar una explicacion detallada en un archivo .txt de las acciones que 
+realizarías al prepararte para conducir un coche automático.
+
+Este ejercicio está diseñado para ayudarte a entender los conceptos básicos de los algortimos
+al darte un ejemplo del mundo real sobre como llevar un ciche automático a dar un paseo.
+
+
+SOLUCIÓN:
+
+    - Agarrar las llaves del carro.
+    - Dirigirme hacia el carro.
+    - Abrir el carro.
+    - Subirme.
+    - Abrochar el cinturón de seguridad.
+    - Darle ignición al carro.
+    - Pisar el freno del carro.
+    - Poner el carro en Drive.
+    - Quitar el freno de mano.
+    - Quitar el pie del freno del carro.
+    - Acelerar
+END 
