@@ -1,0 +1,32 @@
+SOLUCIÓN
+
+Agarrar un sartén.
+
+¿El sartén está limpio?
+    - Si, usarlo
+    - No, lavarlo
+
+Colocar el sartén en el disco de la cocina.
+Encender el disco de la cocina a fuego medio para que vaya calentando el sartén.
+
+Agarrar la cantidad huevos que voy a comer.
+Agarrar un bowl donde voy a revolver los huevos para hacerlos revueltos
+
+¿El bowl está limpio?
+    - Si, usarlo
+    - No, lavarlo
+
+Abrir los huevos para que vayan dentro del bowl.
+Agarrar un tenedor de herramienta para revolver los huevos
+
+¿El tenedor está limpio?
+    - Si, usarlo
+    - No, lavarlo
+
+Añadir sal
+Revolver los huevos
+Poner la mezcla en el sarten ya precalentado
+Esperar unos minutos para que los huevos se vayan cocinando e ir revolviendo al mismo tiempo que esto pasa
+Apagar el disco de la cocina
+Poner los huevos en un plato 
+Comer.
