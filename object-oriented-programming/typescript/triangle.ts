@@ -20,23 +20,29 @@ En este caso, verificamos si (b + c) > a, (a + c) > b, y (a + b) > c.
 Si se cumplen las tres condiciones, entonces los lados efectivamente forman un triángulo.
 */
 
-const prompt = require("prompt-sync")();
+import * as PromptSync from 'prompt-sync'
+const prompt = PromptSync();
 
-const t1 = {
+
+interface Triangle{
+    a: number
+    b: number
+    c: number
+}
+const t1: Triangle = {
     a: parseInt(prompt('Ingrese la primera longitud: ')),
     b: parseInt(prompt('Ingrese la segunda longitud: ')),
     c: parseInt(prompt('Ingrese la tercera longitud: '))
 }
-
-const isValidTriangle = (triangle)=>{
-    const {a, b, c} = triangle
+const isValidTriangle = ({a, b, c}: Triangle)=>{
     
     if ((b + c) > a && (a + c) > b && (a + b) > c) {
         return 'TRIANGULO VÁLIDO'
     } else{
         return 'INTENTE DE NUEVO'
     }
+    //return (b + c) > a && (a + c) > b && (a + b) > c
+    
      
 }
-
 console.log(isValidTriangle(t1))
