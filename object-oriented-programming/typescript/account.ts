@@ -27,16 +27,24 @@ si hay suficientes fondos disponibles.
 
 */
 
-function Account(id, holderName, balance = 0) {
+interface AccountShape {
+  id: number, 
+  holderName: string
+  balance: number
+  deposit: (amout: number) => void
+  withdraw: (amout: number) => number | null
+  transfer: (toAccount: AccountShape, amount: number) => AccountShape | null
+}
+function Account(id: number, holderName: string, balance: number = 0) {
   this.id = id
   this.holderName = holderName
   this.balance = balance
 
-  this.deposit = function(amount){
+  this.deposit = function(amount: number){
     this.balance += amount
   }
 
-  this.withdraw = function(amount){
+  this.withdraw = function(amount: number){
     if (this.balance >= amount){
     this.balance -= amount
     return amount
@@ -45,7 +53,7 @@ function Account(id, holderName, balance = 0) {
     return null
   }
 
-  this.transfer = function(toAccount, amount){
+  this.transfer = function(toAccount: AccountShape, amount: number){
     const cash = this.withdraw(amount)
 
     if (cash){
@@ -60,11 +68,11 @@ function Account(id, holderName, balance = 0) {
   return this
 }
 
-const acc1 = new Account(1, 'Tomás', 10000)
+const acc1: AccountShape = new (Account as any)(1, 'Tomás', 10000)
 acc1.deposit(1000)
 acc1.withdraw(5000)
 
-const acc2 = new Account(2, 'José')
+const acc2: AccountShape = new (Account as any)(2, 'José')
 
 acc1.transfer(acc2, 4000)
 console.log(acc1.transfer(acc2, 2000))
